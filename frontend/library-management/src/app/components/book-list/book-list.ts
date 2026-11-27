@@ -4,33 +4,40 @@ import { CommonModule } from '@angular/common';
 import { BookService } from '../../services/book';
 import { Observable } from 'rxjs';
 import { ChangeDetectorRef } from '@angular/core';
+import { BookCard } from '../book-card/book-card';
 
 @Component({
   selector: 'app-book-list',
-  imports: [CommonModule],
+  imports: [CommonModule, BookCard],
   templateUrl: './book-list.html',
   styleUrl: './book-list.css',
 })
-export class BookList implements OnInit {
-  books: Book[] = [];
 
-  constructor(
-    private bookService: BookService,
-    private cdr: ChangeDetectorRef,
-  ) {}
+// export class BookList implements OnInit {
+export class BookList {
+  // books: Book[] = [];
 
-  ngOnInit(): void {
-    this.bookService.getBooks().subscribe({
-      next: (data: Book[]) => {
-        this.books = data;
+  // constructor(
+  //   private bookService: BookService,
+  //   private cdr: ChangeDetectorRef,
+  // ) {}
 
-        this.cdr.detectChanges();
-      },
-      error: (err) => {
-        console.error('Error fetching books:', err);
-      },
-    });
-  }
+  // ngOnInit(): void {
+  //   this.bookService.getBooks().subscribe({
+  //     next: (data: Book[]) => {
+  //       this.books = data;
+
+  //       this.cdr.detectChanges();
+  //     },
+  //     error: (err) => {
+  //       console.error('Error fetching books:', err);
+  //     },
+  //   });
+  // }
+
+  // viewDetails(title: String): void {
+  //   alert(`Viewing details for ${title}`);
+  // }
   // ngOnInit(): void {
   //   this.loadBooks();
   // }
