@@ -1,0 +1,83 @@
+
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "9780132350884",
+      "category": "Technology",
+      "publisher": "Prentice Hall",
+      "publishedYear": "2008-08-01",
+      "description": "A practical guide to writing clean, readable, maintainable, and efficient software code.",
+      "language": "English",
+      "totalcopies": 5,
+      "bookcover": "clean-code.png"
+    },
+    {
+      "id": 2,
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas and Andrew Hunt",
+      "isbn": "9780135957059",
+      "category": "Technology",
+      "publisher": "Addison-Wesley",
+      "publishedYear": "2019-09-13",
+      "description": "A guide to practical software development techniques, problem-solving, and professional programming practices.",
+      "language": "English",
+      "totalcopies": 4,
+      "bookcover": "pragmatic-programmer.png"
+    },
+    {
+      "id": 3,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "isbn": "9780735211292",
+      "category": "Personal Development",
+      "publisher": "Avery",
+      "publishedYear": "2018-10-16",
+      "description": "Explores how small daily improvements can create remarkable long-term personal and professional results.",
+      "language": "English",
+      "totalcopies": 6,
+      "bookcover": "atomic-habits.png"
+    },
+    {
+      "id": 4,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "isbn": "9780857197689",
+      "category": "Finance",
+      "publisher": "Harriman House",
+      "publishedYear": "2020-09-08",
+      "description": "Explores the relationship between human behaviour, financial decisions, wealth creation, and investing.",
+      "language": "English",
+      "totalcopies": 5,
+      "bookcover": "psychology-of-money.png"
+    },
+    {
+      "id": 5,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "isbn": "9781612680194",
+      "category": "Finance",
+      "publisher": "Plata Publishing",
+      "publishedYear": "2017-04-11",
+      "description": "Explains financial literacy, investing, assets, liabilities, and different approaches to building wealth.",
+      "language": "English",
+      "totalcopies": 3,
+      "bookcover": "rich-dad-poor-dad.png"
+    },
+    {
+      "id": 6,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "isbn": "9780061122415",
+      "category": "Fiction",
+      "publisher": "HarperOne",
+      "publishedYear": "1993-01-01",
+      "description": "A young shepherd travels in search of treasure and discovers lessons about purpose, destiny, and self-discovery.",
+      "language": "English",
+      "totalcopies": 7,
+      "bookcover": "the-alchemist.png"
+    }
+  ]
+}

@@ -1,1 +1,30 @@
-<p>member-form works!</p>
+<!-- <p>member-form works!</p> -->
+
+<h2>Membership Sign Up</h2>
+
+<form [formGroup]="memberform">
+  <div class="form-group">
+    <label for="name">First Name: </label>
+    <input id="firstname" type="text" formControlName="name" />
+  </div>
+  <div class="form-group">
+    <label for="lastname">Last Name: </label>
+    <input id="lastname" type="text" formControlName="lastname" />
+  </div>
+  <div class="form-group">
+    <label for="email">Email: </label>
+    <input id="email" type="text" formControlName="email" />
+  </div>
+  <div class="form-group">
+    <label for="cellnumber">Email: </label>
+    <input id="cellnumber" type="cellnumber" formControlName="cellnumber" />
+  </div>
+  <div class="form-group">
+    <label for="dateofbirth">Date of Birth: </label>
+    <input id="dateofbirth" type="text" formControlName="dateofbirth" />
+  </div>
+  <div class="form-group">
+    <label for="address">Residential Address: </label>
+    <input id="address" type="text" formControlName="address" />
+  </div>
+</form>
